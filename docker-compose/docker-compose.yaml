@@ -12,7 +12,7 @@ services:
       - "8090:8090"
     restart: always
     depends_on:
-      usu-keycloak:
+      ff-keycloak:
         condition: service_healthy
 
   ff-keycloak:
