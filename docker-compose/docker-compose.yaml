@@ -17,7 +17,7 @@ services:
 
   ff-keycloak:
     restart: always
-    image: jboss/keycloak:12.0.1 # docker.devops.usu.group/usu-shared/usu-user-management/keycloak:latest
+    image: jboss/keycloak:12.0.1
     environment:
       DB_VENDOR: POSTGRES
       DB_ADDR: ff-keycloak-db
